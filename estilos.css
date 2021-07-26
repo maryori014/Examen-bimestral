@@ -1,0 +1,107 @@
+body{
+    border:0px;
+    padding: 0px;
+    background-color:#0F9FBF;
+    background-size: 100%;
+    font-family: 'Griffy', cursive;
+    }
+.item{
+    font-family: 'Griffy',cursive;
+}
+.contenedor{
+    margin-top: 284px;
+    margin-bottom: 262px;
+    margin-left: 356px;
+    margin-right: 360px;
+    width:38%;
+    height:30em;
+    background-color:#033859;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius:0.7em;
+}
+.titulo{
+    margin-top: 43px;
+    font-family:'Griffy',cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 108px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 240px;
+    height: 108px;
+    left: 438px;
+    top: calc(50% - 108px/2 - 131px);
+}
+.texto{
+    margin-right: 34px;
+    position: absolute;
+    width: 328px;
+    height: 218px;
+    left: 394px;
+    top: 449px;
+    font-family: 'Grenze Gotisch',cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.ekko{
+    position: absolute;
+    width: 570px;
+    height: 340px;
+    left: 735px;
+    top: 320px;
+}
+.p{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 506px;
+    top: 685px;
+}
+.q{
+    position: absolute;
+    width: 55px;
+    height: 52px;
+    left: 588px;
+    top: 685px;
+}
+.w{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 685px;
+    top: 685px;
+}
+.e{
+    position: absolute;
+    width: 53px;
+    height: 52px;
+    left: 779px;
+    top: 685px;
+}
+.r{
+    position: absolute;
+    width: 60px;
+    height: 52px;
+    left: 874px;
+    top: 685px;
+}
+@media screen and(min-width:400px){
+    body{
+        border:0px;
+        padding: 0px;
+        background-size: 100%;
+        background-image:linear-gradient(to right,#0F9FBF,#033859);
+    }
+}
